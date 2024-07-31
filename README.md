@@ -8,3 +8,6 @@ adb kill-server adb start_server
 dart fix --dry-run
 ### fix issues forcely
 dart fix --apply
+
+### flutter web directory build
+flutter build web --release -t lib/main_web.dart
