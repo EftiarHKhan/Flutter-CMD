@@ -11,3 +11,7 @@ dart fix --apply
 
 ### flutter web directory build
 flutter build web --release -t lib/main_web.dart
+
+## MAC cmd
+### Remove file by file extension
+find . -type f -name "*.apk" -exec rm {} \;
